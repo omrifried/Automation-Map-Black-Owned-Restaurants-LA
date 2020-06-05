@@ -18,4 +18,4 @@ Find the Google Sheets API and enable it. Next, find the Google Drive API and en
 
 ### <ins>Other Necessary Add-Ons</ins>: 
 #### Downloading Libraries
-Make sure you have pip installed on your computer. Next, run the following commands: pip install gspread oauth2client, pip install googlemaps, pip install selenium
+Make sure you have pip installed on your computer. Next, run the three following commands separately: pip install gspread oauth2client, pip install googlemaps, pip install selenium
