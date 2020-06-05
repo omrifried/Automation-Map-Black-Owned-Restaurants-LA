@@ -83,7 +83,7 @@ class AddToList:
 class ParseSheet:
     """
     Parse class that accesses the Google Sheets/Drive API and parses the desired spreadsheet. The parser
-    adds the restauarants to a list object that can then be looped through.
+    adds the restauarants to a list object that can then be looped through. Do not change this code.
     """
     def parseSheet(self, spreadsheet, startPoint):
         ## Open the Google spreadsheet with Black Owned Restaurants in LA using the sheets/drive API
@@ -185,6 +185,7 @@ startPos = 1
 
 ## Parse the Google sheet and add restaurants to the map list
 driveData = ParseSheet()
+## Alter the first parameter to reference your spreadsheet by name (title of your spreadsheet)
 sheetData = driveData.parseSheet('LA-Black-Owned-Restaurants-2020', startPos)
 if sheetData != 'QUIT':
     placesId = GoogleMapsId(browser)
