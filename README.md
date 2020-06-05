@@ -1,8 +1,7 @@
 # Automation-Map-Black-Owned_Restaurants-LA
 
 ### <ins>Project Description</ins>:
-This python automation script is used to convert a Google spreadsheet into a Google map for Black Owned Restaurants in LA. The script uses Google Map, Drive, and Sheets APIs to parse the Google
-spreadsheet and create a Google map from it. 
+This python automation script is used to convert a Google spreadsheet into a Google map for Black Owned Restaurants in LA. The script uses Google Maps, Drive, and Sheets APIs to parse the Google spreadsheet and create a Google map from it. 
 
 
 ### <ins>Creating the spreadsheet</ins>:
