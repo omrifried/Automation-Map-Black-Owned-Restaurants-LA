@@ -7,6 +7,9 @@ This python automation script is used to convert a Google spreadsheet into a Goo
 ### <ins>Creating the spreadsheet</ins>:
 The Black-Owned Restaurants in LA spreadsheet I use can be found [here](https://docs.google.com/spreadsheets/d/1r27r7aKiiuCtdCYFcReoUE8ZwXcX1VKbOygS_Do5Uec/edit?usp=sharing). The two formulas used can be found in cells A1 and B1. The IMPORTRANGE formula creates a dynamic copy of the original spreadsheet and the formula in column A concatenates the name with the location to create a more precise search criteria.
 
+### <ins>Creating the Google Maps list</ins>:
+Open a new window with Google Maps and find any random location. Once you have a location selected, click "Save" and create a new list. Name the list accordingly as this is where your map will be stored.
+
 ### <ins>Working with APIs</ins>:
 The APIs needed for this project are the Google Maps, Sheets, and Drive APIs. Create a GCP account in order to use these APIs.
 #### Google Maps API:
